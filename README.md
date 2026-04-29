@@ -82,3 +82,36 @@ npm run dev
 ---
 
 ## 📁 Project Structure
+multimodal-doc-ai/
+├── backend/
+│   ├── main.py              # FastAPI app & endpoints
+│   ├── document_processor.py # Text extraction from files
+│   ├── rag_engine.py        # ChromaDB vector search
+│   ├── claude_client.py     # Groq AI integration
+│   └── requirements.txt
+│
+└── frontend/
+└── src/
+├── components/
+│   ├── FileUploader.jsx
+│   ├── ChatBox.jsx
+│   └── SummaryPanel.jsx
+└── App.jsx
+
+---
+
+## 🔑 Environment Variables
+
+| Variable | Description |
+|---|---|
+| `GROQ_API_KEY` | Your Groq API key from console.groq.com |
+
+---
+
+## 📄 License
+
+MIT License — feel free to use and modify!
+
+---
+
+Made with ❤️ by Nandini
